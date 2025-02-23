@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submsission Dicoding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="atas">
+        <div class="container"> <!--pembungkus header-->
+            <div class="logo"> <!--logo/tulisan-->
+            <i><h1><span>ANIM</span>ALS</h1></i>
+            <p>Mengenal macam-macam jenis hewan dan habitatnya</p>
+            </div>
+        </div>
+        <nav id="navigasi">
+            <ul> <!--navigasi-->
+                <li><a href="#Jenis">Jenis</a></li>
+                <li><a href="#Pengertian">Pengertian</a></li>
+                <li><a href="#Habitat">Habitat</a></li>
+                <li><a href="#About">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="content">
+        <article id="Pengertian" class="card">
+            <h1>Pengertian</h1>
+            <div class="gambar">
+                <img src="/img/pengertian.jpg" alt="gambar hewan">
+            <p>
+                Hewan adalah salah satu mahluk hidup yang tinggal di bumi berdampingan dengan manusia Hewan dapat menempati seluruh ekosistem, namun lebih banyak spesies hewan yang hidup di air dibandingkan daratan. Hewan memiliki bentuk dan struktur tubuh yang beraneka ragam. Hal inilah yang dapat dikelompokkan menjadi berbagai jenis golongan
+            </p>
+        </article>
+
+        <article id="Jenis" class="card">
+            <h1>Jenis hewan</h1>
+            <div class="gambar">
+                <img src="/img/jenis hewan.jpg" alt="gambar hewan">
+            </div>
+            <p>
+                Hewan berdasarkan kelompok tersebut digolongkan menjadi dua jenis, yaitu:<br><br>
+                <b><h3>Vertebrata</h3></b><br>
+                Vertebrata adalah jenis hewan yang memiliki tulang belakang dengan ciri-ciri sebagai berikut:<br>
+                   1. Sistem peredaran darah tertutup<br>
+                   2. Memiliki kerangka endoskeleton<br>
+                   3. Sistem syaraf yang berada di otak berkembang biak dengan baik sesuai fungsinya<br>
+                   4. Memiliki alat gerak yang aktif<br>
+            </p>
+        </article>
+
+        <article id="Habitat" class="card">
+            <h1>Habitat</h1>
+            <div class="gambar">
+                <img src="/img/habitat.jpg" alt="gambar hewan">
+            </div>
+            <p>
+                Habitat adalah lingkungan fisik tempat suatu spesies hidup dan beradaptasi, seperti dilansir dari Biology Libre Texts.
+                Habitat menyediakan berbagai sumber daya yang dibutuhkan suatu organisme untuk bertahan hidup.
+                Misalnya tumbuhan, habitat menyediakan tanah yang tepat, sinar matahari, unsur hara, udara, dan juga air yang dibutuhkan untuk tanaman hidup.
+                Bagi hewan, habitat menyediakan tempat untuk mencari dan mengumpulkan makanan, memilih pasangan, bereproduksi, dan juga berlindung.
+            </p>
+            <div class="judul"><h1>Jenis & contoh habitat</h1></div>
+        <div class="chil-card">
+            <div class="carld">
+                <div class="kepala-1"></div>
+                <div class="content">
+                    <h2>Daratan</h2>
+                    <p>
+                        Daratan adalah bagian dari permukaan Bumi yang berupa hamparan tanah yang luas.
+                        Hewan yang tinggal atau berhabitat di daratan biasanya cenderung bernapas menggunakan paru-paru, sedangkan tumbuhan biasanya melakukan fotosintesis.
+                        Contoh hewan dengan habitat darat adalah : harimau,singa,gajah,dan kijang.
+                    </p>
+                </div>
+            </div>
+            <div class="carld">
+                <div class="kepala-2"></div>
+                <div class="content">
+                    <h2>Perairan</h2>
+                    <p>
+                        Habitat perairan merupakan tempat tinggal makhluk hidup berupa perairan, baik di sungai, rawa, dan laut.
+                        Makhluk hidup di lautan memiliki perbedaan dengan hewan yang habitatnya di darat jika dilihat dari proses melangsungkan hidup. contoh hewan yang habitatnya di air adalah:
+                        ikan,
+                        udang,
+                        kepiting,
+                        cumi-cumi,
+                        kuda laut, dan
+                        lainnya.
+                    </p>
+                </div>
+            </div>
+            <div class="carld">
+                <div class="kepala-3"></div>
+                <div class="content">
+                    <h2>Darat & Air</h2>
+                    <p>
+                        Beberapa hewan yang dapat hidup di air dan di darat adalah dari jenis hewan yang memiliki kemampuan beradaptasi dengan media hidupnya baik di darat maupun di air, atau disebut amfibi. contoh hewan amfibi adalah: kodok, katak, salamander, kadal air, dan sebagainya.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        </article>
+
+        <aside>
+            <div class="profile" id="About">
+                <h2>About me</h2>
+                <figure>
+                    <img src="/img/profile.jpg" alt="gambar hewan"/>
+                </figure>
+            <article>
+                <p class="text-profile">
+                    Name    : Fahmi <br>
+                    contact : 0895428177766
+                </p>
+            </article>
+            </div>
+        </aside>
+        <div class="back">
+        <button class="btn-back"><a href="#navigasi">kembali ke awal ></a></button>
+        </div>
+
+    </main>
+
+    <footer>
+        &copy;copyright 2024 | website by Muhammad Fahmi Hamdani
+    </footer>
+
+    <script>
+
+        //  tes validasi user
+        const nama = prompt("Masukkan nama Anda (harus huruf):").trim();
+
+        if (/^[A-Za-z\s]+$/.test(nama)) {
+            alert(`Hello ${nama}`);
+            console.info("true");
+        } else {
+            confirm("silahkan coba lagi");
+            console.info("false");
+        }
+
+    </script>
+</body>
+</html>
